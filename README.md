@@ -4,7 +4,7 @@
 
 Fiap na copa é um projeto desenvolvido para uma avaliação da faculdade **FIAP**.
 
-A aplicação consiste em um login com rotas protegidas onde os das de verificação não estão em um banco de dados e sim, no back-end, construído com java.
+A aplicação consiste em um login com rotas protegidas onde as informações de verificação não estão em um banco de dados e sim, no back-end, construído com java.
 
 ## Layout Web
 
