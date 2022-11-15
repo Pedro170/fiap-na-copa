@@ -16,7 +16,7 @@ A aplicação consiste em um login com rotas protegidas onde as informações de
 
 ![Figurinas internacionais](https://github.com/Pedro170/fiap-na-copa/blob/main/assets/img3.png?raw=true)
 
-#Tecnologias utilizadas
+# Tecnologias utilizadas
 
 ## Back end
 - Java
@@ -43,7 +43,7 @@ Abrir a pasta FiapCopa no Eclipse-web, clicar com o botão direito em cima da pa
 
 ## Front end web
 Pré-requisitos: npm / yarn
-```
+``` bash
 # Clonar o repositório
 git clone https://github.com/Pedro170/fiap-na-copa.git
 
