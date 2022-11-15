@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Fiap na Copa
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Sobre o projeto
 
-## Available Scripts
+Fiap na copa é um projeto desenvolvido para uma avaliação da faculdade **FIAP**.
 
-In the project directory, you can run:
+A aplicação consiste em um login com rotas protegidas onde os das de verificação não estão em um banco de dados e sim, no back-end, construído com java.
 
-### `npm start`
+## Layout Web
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Tela de login](https://github.com/Pedro170/fiap-na-copa/blob/main/assets/img1.png?raw=true)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Tela de Home](https://github.com/Pedro170/fiap-na-copa/blob/main/assets/img2.png?raw=true)
 
-### `npm test`
+![Figurinas nacionais](https://github.com/Pedro170/fiap-na-copa/blob/main/assets/img4.png?raw=true)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Figurinas internacionais](https://github.com/Pedro170/fiap-na-copa/blob/main/assets/img3.png?raw=true)
 
-### `npm run build`
+#Tecnologias utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Back end
+- Java
+- Apache
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Front end
+- HTML/CSS/JS
+- ReactJS / Styled-Components
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Como executar o projeto
 
-### `npm run eject`
+## Back end
+Pré-requisitos: Eclipse-web, Java 8 e Apache Tomcat 9
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+# Clonar o repositório
+git clone https://github.com/Pedro170/apis-java-web.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#Copiar a pasta FiapCopa
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Executar o projeto
+Abrir a pasta FiapCopa no Eclipse-web, clicar com o botão direito em cima da pasta, ir até em Run As e depois Run on Serve.
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Front end web
+Pré-requisitos: npm / yarn
+```
+# Clonar o repositório
+git clone https://github.com/Pedro170/fiap-na-copa.git
 
-## Learn More
+# instalar dependências
+yarn install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# executar o projeto
+yarn start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Autor
 
-### Code Splitting
+João Pedro dos Santos Silva
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://www.linkedin.com/in/pedrosantos170/
