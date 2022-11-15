@@ -1,12 +1,21 @@
-import React from 'react'
-import { H1 } from './styles/components'
+import React from "react";
+import Footer from "./components/footer/Footer";
+import Header from "./components/header/Header";
+import AppRoutes from "./routes/AppRoutes";
+import { CApp, CMain } from "./styles/components";
+import GlobalStyles from "./styles/globalStyles";
 
 const App = () => {
   return (
-    <div>
-      <H1>Obrigado Deus</H1>
-    </div>
-  )
-}
+    <CApp>
+      <Header />
+      <CMain>
+        <AppRoutes />
+      </CMain>
+      <Footer />
+      <GlobalStyles />
+    </CApp>
+  );
+};
 
-export default App
+export default App;
